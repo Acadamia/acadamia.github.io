@@ -1,0 +1,100 @@
+body {
+	background-color: black;
+	font-family: 'Courier';
+}
+
+#topheader {
+	padding: 2%;
+	color: white;
+	background-color: teal;
+	font-size: 2em;
+	border-style: groove;
+	border-color: cyan;
+	border-width: 1%;
+	border-radius: 1%;
+	height: 75px;
+}	
+
+#acadamiaspan {
+	font-size: 3em;
+}
+
+#sidenav {
+	background-color: teal;
+	padding: 2%;
+	border-color: blue;
+	border-style: solid;
+	border-width: 1%;
+	border-radius: 1%;
+	margin-top: 2%;
+	width: 27%;
+	height: 350px;
+	float: left;
+	display: inline-block;
+}
+
+.academicssidenav:hover {
+	background-color: cadetblue;
+	padding: 2px;
+	margin: 2px;
+}
+
+.helpsidenav:hover {
+	background-color: cadetblue;
+	padding: 2px;
+	margin: 2px;
+}
+
+.programmingsidenav:hover {
+	background-color: cadetblue;
+	padding: 2px;
+	margin: 2px;
+}
+
+.othersidenav:hover {
+	background-color: cadetblue;
+	padding: 2px;
+	margin: 2px;
+}
+
+#frontpagearticle {
+	background-color: teal;
+	border-style: solid;
+	border-color: blue;
+	border-radius: 1%;
+	border-width: 1%;
+	width: 30%;
+	height: 350px;
+	padding: 2%;
+	float: left;
+	margin: 2% 0% 0% 2%;
+	display: inline-block;
+}
+
+#frontpagehomework {
+   background-color: teal;
+	border-style: solid;
+	border-color: blue;
+	border-radius: 1%;
+	border-width: 1%;
+	width: 25%;
+	height: 350px;
+	padding: 2%;
+	float: right;
+	margin: 2% 0% 0% 2%;
+	display: inline-block;
+}
+
+#footer {
+	background-color: teal;
+	border-style: solid;
+	border-color: blue;
+	border-radius: 1%;
+	border-width: 1%;
+	width: 95%;
+	margin-top: 2%;
+	padding: 0% 2% 0% 2%;
+	font-weight: bold;
+	font-size: 1.5em;
+	float: left;
+}
