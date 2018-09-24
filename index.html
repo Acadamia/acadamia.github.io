@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<div id="titlescreen">
-			<div id="topheader"><span id="acadamiaspan">A</span>cadamia</div>
+			<div id="topheader"><span id="acadamiaspan">A</span><span id="chatroompassc">c</span>a<span id="chatroompassd">d</span>a<span id="chatroompassm">m</span>ia</div>
 			<div id="sidenav">
 				<dl>
 					<div class="academicssidenav">
@@ -44,9 +44,9 @@
 				<h2>Homework</h2>
 				<dl>
 					<dt><b>Math</b></dt>
-					<dd>None</dd>
+					<dd>Friday letter due 9/28</dd>
 					<dt><b>LAL</b></dt>
-					<dd>None</dd>
+					<dd>OTTER</dd>
 					<dt><b>Science</b></dt>
 					<dd>None</dd>
 					<dt><b>Social Studies</b></dt>
@@ -56,11 +56,31 @@
 				</dl>
 			</aside>
 			<footer id="footer">
-				<p id="settingsfrontpage" onclick="settingsscreen()">Settings</p>
+				<p id="settingsfrontpage" onclick="titlescreenfadeoutsettings()">Settings</p>
 			</footer>
 		</div>
 		<div id="settingsscreen">
-			<h1>Settings</h1>
+			<div id="settingsheader">
+				<h1 id="settingsheadertext">Settings</h1>
+			</div>
+			<div id="themesettings">
+				<h3 id="themesettingstext">Theme</h3>
+			</div>
+			<div id="gradesettings">
+				<h3 id="gradesettingstext">Select grade:</h3>
+				<form>
+					<select name="grade" id="gradeselectoption">
+						<option value="three">3rd grade</option>
+						<option value="four">4th grade</option>
+						<option value="five">5th grade</option>
+						<option value="six">6th grade</option>
+						<option value="seven">7th grade</option>
+						<option value="eight">8th grade</option>
+					</select>
+					<br><br>
+					<input type="submit">
+				</form>
+			</div>
 		</div>
 	</body>
 </html>
